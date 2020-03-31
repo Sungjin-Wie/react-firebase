@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { Link, BrowserRouter, Route } from "react-router-dom";
+import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 import Result from "./result";
 import Search from "./search";
 const App = () => {
-  
+
   return (
     <BrowserRouter>
       <Route exact path="/" component={Search} />
